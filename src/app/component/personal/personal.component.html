@@ -1,0 +1,54 @@
+<div>
+    <div class="p-grid p-ai-stretch">
+        <div class="p-col-12">
+            <h1>
+                Personal Information
+            </h1>
+            <p-card>
+                <div class="p-grid p-jc-center">
+                    <div class="p-col image-container">
+                        <img src="assets/images/profile.jpg" class="profile-image" alt="">
+                    </div>
+                </div>
+                <p>
+                    {{personal.description}}
+                </p>
+                <div class="p-grid p-jc-center">
+                    <div class="p-col-2">
+                        <h3>
+                            Languages
+                        </h3>
+                        <ul>
+                            <li *ngFor = "let language of personal.languages">
+                                {{language.name}} - {{language.level}}
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="p-col-2">
+                        <h3>
+                            Hobbies
+                        </h3>
+                        <ul>
+                            <li *ngFor = "let hobbie of personal.hobbies">
+                                {{hobbie}}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </p-card>
+        </div>
+        <div class="p-col-12">
+            <p-card>
+                <h3>
+                    Skills
+                </h3>
+                <div>
+                    <button *ngFor = "let skill of personal.skills" pButton pRipple type="button" icon="{{skill.icon}}"
+                        pTooltip="{{skill.name}}" tooltipPosition="bottom"
+                        class="p-button-rounded p-button-text p-button-lg p-button-info">
+                    </button>
+                </div>
+            </p-card>
+        </div>
+    </div>
+</div>

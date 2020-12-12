@@ -1,10 +1,30 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-portfolio';
+    title = 'my-portfolio';
+    public items = [
+        {
+            label: 'About me',
+            icon: 'fas fa-user-secret',
+            routerLink: ['/main'],
+            fragment: 'personal'
+        },
+        {
+            label: 'Projects',
+            icon: 'fas fa-project-diagram',
+            routerLink: ['/main'],
+            fragment: 'videogames'
+        },
+        {
+            label: 'Contact',
+            icon: 'fas fa-id-card',
+            routerLink: ['/main'],
+            fragment: 'contact'
+        }
+    ];
 }

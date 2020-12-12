@@ -1,0 +1,45 @@
+{
+    "description": "I’m an enthusiastic developer from Ecuador based in Barcelona.\nSince I can remember I have always enjoyed playing video games in my spare time and this led me to pursue a career in the video game Industry.\nDuring my professional life I have worked in many teams with people from different backgrounds, from whom I learned many useful and transferable skills.",
+    "links": [
+        {"name": "Github", "icon": "fab fa-github", "url": "https://github.com/marcorod94"},
+        {"name": "Linkedin", "icon": "fab fa-linkedin", "url": "https://www.linkedin.com/in/marco-rodriguez-b1b21515a/"}
+    ],
+
+    "skills" : [
+        {"name": "Android", "icon": "devicon-android-plain"},
+        {"name": "C#", "icon": "devicon-cplusplus-plain"},
+        {"name": "C++", "icon": "devicon-csharp-plain"},
+        {"name": "Git", "icon": "devicon-git-plain"},
+        {"name": "iOS", "icon": "devicon-swift-plain"},
+        {"name": "Java", "icon": "devicon-java-plain-wordmark"},
+        {"name": "PHP", "icon": "devicon-php-plain"},
+        {"name": "Typescript", "icon": "devicon-typescript-plain"},
+        {"name": "Visual Studio", "icon": "devicon-visualstudio-plain"},
+        {"name": "Angular", "icon": "devicon-angularjs-plain"},
+        {"name": "Bootstrap", "icon": "devicon-bootstrap-plain"},
+        {"name": "CSS", "icon": "devicon-css3-plain-wordmark"},
+        {"name": "Gradle", "icon": "devicon-gradle-plain"},
+        {"name": "HTML", "icon": "devicon-html5-plain-wordmark"},
+        {"name": "Ionic", "icon": "devicon-ionic-original"},
+        {"name": "Javascript", "icon": "devicon-javascript-plain"},
+        {"name": "Laravel", "icon": "devicon-laravel-plain"},
+        {"name": "MySQL", "icon": "devicon-mysql-plain"},
+        {"name": "Nginx", "icon": "devicon-nginx-original"},
+        {"name": "Oracle", "icon": "devicon-oracle-original"},
+        {"name": "Postgresql", "icon": "devicon-postgresql-plain"}
+    ],
+
+    "languages": [
+        {"name": "English", "level": "Fluent"},
+        {"name": "Spanish", "level": "Native"}
+    ],
+
+    "hobbies": [
+        "Swimming",
+        "Dancing",
+        "Comic Books",
+        "Sitcoms",
+        "Reading",
+        "Trekking"
+    ]
+}

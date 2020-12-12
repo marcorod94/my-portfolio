@@ -1,0 +1,79 @@
+[
+    {
+        "id": "prj01",
+        "title": "Twinlight Souls",
+        "url": "https://github.com/OnionGalaxy/TwinlightSouls",
+        "media": [
+            "assets/images/twinlight/menu.png",
+            "assets/images/twinlight/level_1.png",
+            "assets/images/twinlight/level_2.png",
+            "assets/images/twinlight/level_3.png",
+            "assets/images/twinlight/twinlight_souls.png"
+        ],
+        "description": "A 3D Game made using our own in house Game Engine during my Master's degree in Advanced Programming for AAA Video Games. ",
+        "contributions": [
+            "Enemy Movement",
+            "Player Movement"
+        ],
+        "tools": [
+            "Assimp",
+            "Bullet Physics",
+            "C++",
+            "Dear ImGui",
+            "Debug Draw",
+            "DevIL",
+            "OpenGL",
+            "PhysicsFS",
+            "SDL"
+        ]
+    },
+    {
+        "id": "prj02",
+        "title": "Little Orion Engine",
+        "url": "https://github.com/OnionGalaxy/LittleOrionEngine",
+        "media": [
+            "assets/images/engine/engine.png",
+            "assets/images/engine/animation.png",
+            "assets/images/engine/ui_system.png"
+        ],
+        "description": "A full-blown Game Engine made during my Master's degree in Advanced Programming for AAA Video Games.",
+        "contributions": [
+            "Collision Detection",
+            "Event System",
+            "Hot Reloading",
+            "Physics Module",
+            "UI Module"
+        ],
+        "tools": [
+            "Assimp",
+            "Bullet Physics",
+            "C++",
+            "Dear ImGui",
+            "Debug Draw",
+            "DevIL",
+            "OpenGL",
+            "PhysicsFS",
+            "SDL"
+        ]
+    },
+    {
+        "id": "prj03",
+        "title": "Flappy Demo",
+        "url": "https://github.com/marcorod94/flappyDemo",
+        "media": [
+            "https://raw.githubusercontent.com/marcorod94/flappyDemo/master/media/demo.gif",
+            "https://raw.githubusercontent.com/marcorod94/flappyDemo/master/media/main_menu.png"
+        ],
+        "description": "This is a take on the popular game Flappy Bird, made using libGDX to test it possibilities for the multiplatform game development",
+        "contributions": [
+            "Developed the whole game"
+        ],
+        "tools": [
+            "Android Studio",
+            "Gradle",
+            "Java",
+            "libGDX"
+        ]
+
+    } 
+]

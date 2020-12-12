@@ -1,0 +1,98 @@
+.carousel-image {
+    height: 150px;
+    max-width: 100%;
+}
+
+.carousel-image-detail {
+    height: 200px;
+    max-width: 100%;
+}
+
+* {
+    white-space: pre-line;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #495057;
+}
+
+:host ::ng-deep .p-menubar .p-submenu-list {
+    z-index: 5;
+}
+
+:host ::ng-deep .p-button.p-button-icon-only.p-button-rounded {
+    height: 6rem;
+}
+
+:host ::ng-deep .p-button.p-button-icon-only {
+    width: 6rem;
+}
+
+:host ::ng-deep .p-button.p-button-lg {
+    font-size: 3.25rem;
+}
+
+:host ::ng-deep .p-button.p-button-lg .p-button-icon {
+    font-size: 3.25rem;
+}
+
+.headbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+.content {
+    margin-top: 5%;
+}
+
+.content-section {
+    padding-top: 100px;
+    margin-top: -40px;
+}
+
+.carousel-card {
+    margin: 20px 10px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin-block-start: 0.4em;
+    margin-block-end: 0.3em;
+}
+
+h2 {
+    margin-block-start: 0.4em;
+    margin-block-end: 0.3em;
+}
+
+:host ::ng-deep .p-card .p-card-content {
+    padding: 0.3rem 0;
+}
+
+:host ::ng-deep .p-card .p-card-body {
+    padding: 0.3rem 1rem;
+}
+
+.profile-image {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+:host ::ng-deep .project-card .p-card{
+    height: 100%;
+}
+
+:host ::ng-deep .p-menubar {
+    background: #ffffff;
+    font-size: 1rem;
+}
+
+:host ::ng-deep .p-menuitem-icon {
+    font-size: 1.5rem;
+}
