@@ -35,15 +35,11 @@
 }
 
 .headbar {
-    overflow: hidden;
-    position: fixed;
+    overflow: visible;
+    position: sticky;
     top: 0;
     width: 100%;
     z-index: 5;
-}
-
-.content {
-    margin-top: 5%;
 }
 
 .content-section {
@@ -95,4 +91,9 @@ h2 {
 
 :host ::ng-deep .p-menuitem-icon {
     font-size: 1.5rem;
+}
+
+.zero-spacing {
+    padding: 0px;
+    margin: 0px;
 }

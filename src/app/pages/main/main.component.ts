@@ -12,14 +12,7 @@ export class MainComponent implements OnInit {
 
     public personalInfo:any = {};
     public projects = [];
-    public responsiveOptions = [
-        {
-            breakpoint: '1024px',
-            numVisible: 1,
-            numScroll: 1
-        }
-    ];
-
+    
     constructor(private informationService: InformationService, public constants: ConstantsProvider ) {}
 
     ngOnInit(): void {
