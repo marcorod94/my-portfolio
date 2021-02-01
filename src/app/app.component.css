@@ -97,3 +97,12 @@ h2 {
     padding: 0px;
     margin: 0px;
 }
+
+.video-frame {
+    width: 100%;
+    border: 0;
+}
+
+.media-carousel, .video-frame  {
+    height: 300px;
+}

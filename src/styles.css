@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    background-image: url("assets/images/circuit_green.png");
+    /* background-image: url("assets/images/circuit_green.png"); */
+    background-image: linear-gradient(to right, #00a0e1, #005293);
     margin: 0px;
 }

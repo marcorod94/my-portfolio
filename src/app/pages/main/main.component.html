@@ -63,7 +63,7 @@
                     <div class="image-container">
                         <button *ngFor = "let link of personalInfo.links" pButton pRipple type="button" icon="{{link.icon}}"
                             pTooltip="{{link.name}}" tooltipPosition="bottom"
-                            class="p-button-rounded p-button-text p-button-lg p-button-info"
+                            class="p-button-rounded p-button-text p-button-lg p-button-secondary"
                             (click)="goToContact(link.url)">
                         </button>
                     </div>

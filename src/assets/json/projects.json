@@ -1,5 +1,28 @@
 [
     {
+        "id": "prj04",
+        "title": "Flappy Demo Cpp",
+        "url": "https://github.com/marcorod94/FlappyDemoCpp",
+        "media": [
+            "https://raw.githubusercontent.com/marcorod94/FlappyDemoCpp/master/Media/menu.png",
+            "https://raw.githubusercontent.com/marcorod94/FlappyDemoCpp/master/Media/gameOver.png",
+            "https://raw.githubusercontent.com/marcorod94/FlappyDemoCpp/master/Media/demo.gif"  
+        ],
+        "video": "https://drive.google.com/file/d/1b6Giiqy4gB3SOVCKgr-W5gjjFXBfy9WZ/preview",
+        "description": "An implementation on the famous game Flappy Bird using C++ and SDL.",
+        "contributions": [
+            "Bird movement and animation",
+            "Score System",
+            "Tube moving and repositioning",
+            "Scene transitioning"
+        ],
+        "tools": [
+            "C++",
+            "SDL"
+        ]
+
+    },
+    {
         "id": "prj01",
         "title": "Twinlight Souls",
         "url": "https://github.com/OnionGalaxy/TwinlightSouls",
@@ -10,6 +33,7 @@
             "assets/images/twinlight/level_3.png",
             "assets/images/twinlight/twinlight_souls.png"
         ],
+        "video": "https://drive.google.com/file/d/1grLmH3cYcejuKxNcH4l1KwqRirKpEKvH/preview",
         "description": "A 3D Game made using our own in house Game Engine during my Master's degree in Advanced Programming for AAA Video Games. ",
         "contributions": [
             "Enemy Movement",
