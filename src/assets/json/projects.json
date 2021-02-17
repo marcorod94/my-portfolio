@@ -1,8 +1,33 @@
 [
     {
         "id": "prj04",
+        "title": "Classic Snake",
+        "url": "https://github.com/marcorod94/Classic-Snake",
+        "release": "https://github.com/marcorod94/Classic-Snake/releases/tag/1.0",
+        "media": [
+            "https://raw.githubusercontent.com/marcorod94/Classic-Snake/master/Media/menu.png",
+            "https://raw.githubusercontent.com/marcorod94/Classic-Snake/master/Media/play.png",
+            "https://raw.githubusercontent.com/marcorod94/Classic-Snake/master/Media/gameover.png"  
+        ],
+        "video": "https://drive.google.com/file/d/1EOMkUA2lAZzG346vox25T-EKCgHfntwb/preview",
+        "description": "An implementation on the classic snake game using C++ and SDL.",
+        "contributions": [
+            "Snake movement",
+            "Score System",
+            "Random Position for the food",
+            "Font Rendering using SDL"
+        ],
+        "tools": [
+            "C++",
+            "SDL"
+        ]
+
+    },
+    {
+        "id": "prj04",
         "title": "Flappy Demo Cpp",
         "url": "https://github.com/marcorod94/FlappyDemoCpp",
+        "release" : "https://github.com/marcorod94/FlappyDemoCpp/releases/tag/1.0",
         "media": [
             "https://raw.githubusercontent.com/marcorod94/FlappyDemoCpp/master/Media/menu.png",
             "https://raw.githubusercontent.com/marcorod94/FlappyDemoCpp/master/Media/gameOver.png",
@@ -23,9 +48,10 @@
 
     },
     {
-        "id": "prj01",
+        "id": "prj03",
         "title": "Twinlight Souls",
         "url": "https://github.com/OnionGalaxy/TwinlightSouls",
+        "release": "https://github.com/OnionGalaxy/TwinlightSouls/releases/tag/1.0.0",
         "media": [
             "assets/images/twinlight/menu.png",
             "assets/images/twinlight/level_1.png",
@@ -55,6 +81,7 @@
         "id": "prj02",
         "title": "Little Orion Engine",
         "url": "https://github.com/OnionGalaxy/LittleOrionEngine",
+        "release": "https://github.com/OnionGalaxy/LittleOrionEngine/releases/tag/v1.6.0",
         "media": [
             "assets/images/engine/engine.png",
             "assets/images/engine/animation.png",
@@ -81,7 +108,7 @@
         ]
     },
     {
-        "id": "prj03",
+        "id": "prj01",
         "title": "Flappy Demo",
         "url": "https://github.com/marcorod94/flappyDemo",
         "media": [
