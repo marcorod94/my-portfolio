@@ -43,11 +43,17 @@
             </li>
         </ul>
     </div>
-    <div class="image-container">
+    <div class="image-container" style="margin-bottom: 15px;">
         <button pButton pRipple type="button" label="Repository"
             class="p-button-raised p-button-rounded p-button-secondary"
             icon="fab fa-github"
-            (click)="goToRepository()">
+            (click)="goToExternalLink(project.url)">
+        </button>
+        <button *ngIf="project.release" pButton pRipple type="button" label="Play"
+            class="p-button-raised p-button-rounded p-button-secondary"
+            icon="fas fa-gamepad"
+            style="margin-left: 15px;"
+            (click)="goToExternalLink(project.release)">
         </button>
     </div>
 </div>

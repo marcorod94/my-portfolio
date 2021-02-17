@@ -21,8 +21,8 @@ export class ProjectDetailComponent implements OnChanges {
         }
     }
 
-    goToRepository(): void {
-        window.open(this.project.url);
+    goToExternalLink(url: string): void {
+        window.open(url);
     }
 
 }
