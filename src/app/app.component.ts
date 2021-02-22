@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+declare var require: any
+const FileSaver = require('file-saver');
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
@@ -25,6 +27,16 @@ export class AppComponent {
             icon: 'fas fa-id-card',
             routerLink: ['/main'],
             fragment: 'contact'
+        },
+        {
+            label: 'CV',
+            icon: 'fas fa-id-card-alt',
+            command: () => 
+            {
+                const pdfUrl = './assets/pdf/cv.pdf';
+                const pdfName = 'Marco_Rodriguez_CV';
+                FileSaver.saveAs(pdfUrl, pdfName);
+            }
         }
     ];
 }
